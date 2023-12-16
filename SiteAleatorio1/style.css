@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
+
+.cabecalho{
+    height: 110vh;
+    background:  20px rgb(179, 47, 255);
+    width: 100%;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;  
+   
+   
+}
+
+.navbar .li1,.li2,.li3,.li4{
+    color: white;
+    font-size: 20px;
+    transition: .3s;
+}
+
+
+
+.navbar .icon1 a{
+    color: white;
+    font-size: 50px;
+}
+.navbar .icon1:hover{
+    scale: 1.2;
+}
+
+.navbar .icon1{
+    transition: .3s;
+    text-shadow: 0 0 12px var(--colorRed), 0 0 50px var(--colorRed), 0 0 100px var(--colorRed);
+    
+}
+
+.navbar .icon1:hover{
+    text-shadow: 0 0 12px red, 0 0 50px red, 0 0 100px red;
+}
+.icon2{
+    align-items: center;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.icon2 a{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+
+
+.logo1,.logo2{
+    transition: .3s;
+    text-shadow: 0 0 12px var(--colorRed), 0 0 50px var(--colorRed), 0 0 100px var(--colorRed);
+}
+.logo1:hover{
+    text-shadow: 0 0 12px red, 0 0 50px red, 0 0 100px red;
+}
+.logo2:hover{
+    text-shadow: 0 0 12px red, 0 0 50px red, 0 0 100px red;
+}
+.icon2 .logo1:nth-child(2){
+    animation-delay: 0.25s;
+} 
+.icon2 .logo2:nth-child(2){
+    animation-delay: 0.50s;
+} 
+
+
+
+
+.logo1:hover{
+    scale: 1.2;
+
+}
+.logo2:hover{
+    scale: 1.2;
+
+}
+
+
+.navbar ul{
+    list-style: none;
+    
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 15px 40px;
+    color: white;
+ 
+
+}
+
+.navbar ul .li1 a{
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+.navbar ul .li1{
+    transition: .3s;
+   
+}
+
+.navbar ul .li1:hover{
+    scale: 1.2;
+}
+.navbar ul .li2 a{
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+.navbar ul .li2{
+    transition: .3s;
+   
+}
+
+.navbar ul .li2:hover{
+    scale: 1.2;
+}
+.navbar ul .li3 a{
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+.navbar ul .li3{
+    transition: .3s;
+   
+}
+
+.navbar ul .li3:hover{
+    scale: 1.2;
+}
+.navbar ul .li4 a{
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+.navbar ul .li4{
+    transition: .3s;
+   
+}
+
+.navbar ul .li4:hover{
+    scale: 1.2;
+}
+
+
+
+
+.cabecalho h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    animation: animation 4s infinite alternate ease-in-out;
+    margin-top: 330px;
+
+ 
+    
+}
+
+.cabecalho h1 span{
+    font-size: 4em;
+    animation: brilho2 2s infinite ease-in-out;
+    letter-spacing: 20px;
+    transition: .3s;
+  
+}
+
+
+.cabecalho h1 span:hover{
+    scale: 1.3;
+    
+}
+
+
+
+:root{
+    --colorRed:purple;
+    --colorGrey:grey;
+}
+
+
+.cabecalho h1 span:nth-child(2){
+    animation-delay: 0.25s;
+}
+.cabecalho h1 span:nth-child(3){
+    animation-delay: 0.50s;
+}
+.cabecalho h1 span:nth-child(4){
+    animation-delay: 0.75s;
+}
+.cabecalho h1 span:nth-child(5){
+    animation-delay: 1s;
+}
+.cabecalho h1 span:nth-child(6){
+    animation-delay: 1.25s;
+}
+.cabecalho h1 span:nth-child(7){
+    animation-delay: 1.50s;
+}
+.cabecalho h1 span:nth-child(8){
+    animation-delay: 1.75s;
+}
+
+@keyframes brilho2{
+    0%{
+        color: white;
+        text-shadow: 0 0 12px var(--colorRed), 0 0 50px var(--colorRed), 0 0 100px var(--colorRed);
+    }
+    10%,90%{
+        text-shadow: none;
+        color:#000;
+    }
+}
+
+
+
+.navbar ul .li1 span{
+    animation: brilho3 2s infinite ease-in-out;
+}
+
+.navbar ul .li1 span:nth-child(2){
+    animation-delay: 0.25s;
+}
+.navbar ul .li1 span:nth-child(3){
+    animation-delay: 0.50s;
+}
+.navbar ul .li1 span:nth-child(4){
+    animation-delay: 0.75s;
+}
+.navbar ul .li1 span:nth-child(5){
+    animation-delay: 1s;
+}
+.navbar ul .li1 span:nth-child(6){
+    animation-delay: 1.25s;
+}
+.navbar ul .li1 span:nth-child(7){
+    animation-delay: 1.50s;
+
+
+
+
+}
+.navbar ul .li2 span{
+    animation: brilho3 2s infinite ease-in-out;
+}
+
+.navbar ul .li2 span:nth-child(2){
+    animation-delay: 0.25s;
+}
+.navbar ul .li2 span:nth-child(3){
+    animation-delay: 0.50s;
+}
+.navbar ul .li2 span:nth-child(4){
+    animation-delay: 0.75s;
+}
+.navbar ul .li2 span:nth-child(5){
+    animation-delay: 1s;
+}
+.navbar ul .li2 span:nth-child(6){
+    animation-delay: 1.25s;
+}
+
+
+
+.navbar ul .li3 span{
+    animation: brilho3 2s infinite ease-in-out;
+}
+
+.navbar ul .li3 span:nth-child(2){
+    animation-delay: 0.25s;
+}
+.navbar ul .li3 span:nth-child(3){
+    animation-delay: 0.50s;
+}
+.navbar ul .li3 span:nth-child(4){
+    animation-delay: 0.75s;
+}
+.navbar ul .li3 span:nth-child(5){
+    animation-delay: 1s;
+}
+.navbar ul .li3 span:nth-child(6){
+    animation-delay: 1.25s;
+}
+.navbar ul .li3 span:nth-child(7){
+    animation-delay: 1.50s;
+}
+
+.navbar ul .li3 span:nth-child(8){
+    animation-delay: 1.75s;
+}
+
+
+
+
+.navbar ul .li4 span{
+    animation: brilho3 2s infinite ease-in-out;
+}
+
+.navbar ul .li4 span:nth-child(2){
+    animation-delay: 0.25s;
+}
+.navbar ul .li4 span:nth-child(3){
+    animation-delay: 0.50s;
+}
+.navbar ul .li4 span:nth-child(4){
+    animation-delay: 0.75s;
+}
+.navbar ul .li4 span:nth-child(5){
+    animation-delay: 1s;
+}
+.navbar ul .li4 span:nth-child(6){
+    animation-delay: 1.25s;
+}
+.navbar ul .li4 span:nth-child(7){
+    animation-delay: 1.50s;
+}
+
+.navbar ul .li4 span:nth-child(8){
+    animation-delay: 1.75s;
+}
+.navbar ul .li4 span:nth-child(9){
+    animation-delay: 2s;
+}
+
+.navbar ul .li4 span:nth-child(10){
+    animation-delay: 2.25s;
+}
+
+
+@keyframes brilho3{
+    0%{
+        color: white;
+        text-shadow: 0 0 12px red, 0 0 50px red, 0 0 100px red;
+    }
+    10%,90%{
+        text-shadow: none;
+        color: white;
+    }
+}
+
+
+
+
+.corpo{
+    height: 110vh; 
+    background: #000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow:0 0 30px #800080;
+  
+}
+
+
+.texto1 {
+    padding-top: 50px;
+    padding-left: 50px;
+    margin: 30px;
+    border-radius: 30px;
+    line-height: 100px;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-shadow: 0 0 30px rgb(87, 6, 87);
+    
+    
+}
+
+.texto1 p{
+    font-size: 25px;
+    
+    text-shadow: 0 0 10px rgb(179, 47, 255);
+    
+}
+.corpo a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    width: 500px;
+    background: black;
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #800080;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-top: 510px;
+    animation: move2 3s infinite alternate;
+    position: absolute;
+   transition: .3s;
+ 
+}
+.corpo a:hover{
+    scale: 1.1;
+    background: #800080;
+    color:white;
+}
+
+@keyframes move1{
+0%{
+    left: 0;
+}
+
+100%{
+    left: 100px;
+}
+
+}
+
+
+
+@keyframes move2{
+    0%{
+        right: 50px;
+    }
+    
+    100%{
+      right: 80px;
+    }
+    
+    }
+    
+.corpo2{
+    background: black;
+    
+    color: white;
+    font-size: 2.5em;
+    box-shadow: 0 0 20px  rgb(179, 47, 255);
+   
+}
+.corpo2 h2{
+    text-align: center;
+    padding-top: 120px;
+    text-shadow: 0 0 20px rgb(179, 47, 255)
+}
+.cards{
+    
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+    
+}
+.cards a{
+    text-decoration: none;
+}
+
+.link{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 350px;
+    margin: 40px;
+    box-shadow: 0 0 20px #800080;
+    border-radius: 20px;
+    color: white;
+    font-size: 70px;
+    transition: .3s;
+   
+}
+
+.link i{
+    margin-bottom: 80px;
+}
+.link:hover{
+    scale: 1.1;
+}
+.link p{
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding-top: 130px;
+}
+
+.rodape{
+    height: 50vh;
+    background: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape h2{
+    font-size: 5em;
+    letter-spacing: 20px;
+    color: 30px #800080;
+    animation: fim 2s infinite ease-in-out;
+    text-shadow: 0 0 30px #800080,0 0 60px #800080,0 0 100px #800080;
+
+}
+
+@keyframes fim{
+    0%{
+        text-shadow: 0 0 5px #800080;
+    }
+    50%{
+        text-shadow: 0 0 30px #800080;
+    }
+    100%{
+        text-shadow: 0 0 5px #800080;
+    }
+}
+
+
+
